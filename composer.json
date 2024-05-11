@@ -1,0 +1,16 @@
+{
+    "name": "ashumeiko/geoip",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": "local/classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksander Shumeiko",
+            "email": "music.dll@mail.ru"
+        }
+    ],
+    "require": {}
+}

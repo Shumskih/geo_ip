@@ -1,0 +1,29 @@
+/bitrix/
+/bitrix
+/a
+/upload
+.envrc
+
+#Превьюшные файлы системы
+.DS_Store
+Thumbs.db
+
+*.log
+
+#PhpStorm project files
+/.idea
+
+#NetBeans project file
+/nbproject
+
+/test*.php
+/node_modules/
+/package-lock.json
+/vendor/
+composer.lock
+phpunit.xml
+
+# local env files
+.env.local
+.env.*.local
+.auth.json
