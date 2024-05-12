@@ -57,7 +57,7 @@ class GeoIpService
      */
     private function getFromDb(string $ip): array
     {
-        $object = $this->repository->get(['UF_IP' => $ip], ['UF_CITY', 'UF_REGION', 'UF_COUNTRY']);
+        $object = $this->repository->get(['=UF_IP' => $ip], ['UF_CITY', 'UF_REGION', 'UF_COUNTRY']);
         if (is_null($object)) {
             return [];
         }
